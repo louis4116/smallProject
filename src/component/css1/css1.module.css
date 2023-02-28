@@ -1,0 +1,35 @@
+.card{
+    width: 200px;
+    height: 250px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .card::before{
+      content: "";
+      position: absolute;
+      transform: translate(-50%,-50%) rotate(0deg);
+    top: 50%;
+    left: 50%;
+      width: 200%;
+      height: 200%;
+      background-image: conic-gradient(from 0deg,red,blue);
+      transition: transform 3s;
+      
+    }
+    .card:hover::before{
+      transform: translate(-50%,-50%) rotate(360deg);
+    }
+    .card::after{
+      content: "";
+      position: absolute;
+      background-color: black;
+      width:192px;
+      height: 242px;
+      top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    
+    }
+    
