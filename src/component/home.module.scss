@@ -1,6 +1,13 @@
+.app{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e0e5ec;
+}
 .home{
     display: grid;
-    
     grid-template-rows: repeat(4,1fr);
     grid-template-columns: repeat(4,1fr);
    
@@ -145,4 +152,56 @@ h3{
         right: 0;
         bottom: 0;
     }
+}
+.youtubeLayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    h3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+.progressbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    h3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    } 
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    h3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    } 
+}
+.twitch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    h3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    } 
 }

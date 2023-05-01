@@ -1,0 +1,140 @@
+.twitchnavbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgb(24,24,27);
+    box-shadow: 0 1px 2px black;
+    z-index: 100;
+    position: relative;
+}
+.twitch-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    flex: 1;
+    .twitch-left-img{
+        display:flex;
+
+        padding: 10px;
+        img{
+            padding: 0 5px;
+        }
+    }
+    .twitch-left-follow,
+    .twitch-left-view{
+        padding: 0 20px;
+    }
+    .twitch-left-follow{
+        height: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: rgb(191,148,255);
+    }
+    .twitch-left-follow-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        flex-grow: 1;
+    }
+    .twitch-left-follow-bottom{
+        width: 100%;
+        height: 2px;
+        background-color: rgb(191,148,255);
+    }
+    .twitch-left-vertical{
+        padding: 0 10px;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            width: 30px;
+        }
+    }
+}
+.twitch-center{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    .twitch-center-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+     padding: 5px; 
+
+     .twitch-center-input-div-first{
+        flex-grow: 1;
+     }
+    .twitch-center-input-content{
+        height: 40px;
+        background-color: rgb(24,24,27);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 0.5px solid gray;
+        width: 400px;
+        padding: 5px 10px;
+        color:white;
+        font-size: 16px;
+    }
+    .twitch-center-input-div-second{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 35px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: rgba(83,83,95,0.38);
+    }
+    }
+}
+.twitch-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    div{
+        display: flex;
+        align-items: center;
+        margin: 0 2.5px;
+        padding: 0 7.5px;
+    }
+    .twitch-right-triangle{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 5px;
+        margin: 0 !important;
+        background-color: rgba(83,83,95,0.48);
+        border-radius: 5px;
+        font-weight: 600;
+        div{
+            padding: 7px 5px;
+            margin: 0 !important; 
+        }
+    }
+    .twitch-right-profile{
+        padding: 0 !important;
+        margin: 0 !important; 
+        .twitch-right-profile-div{
+            width: 30px;
+            height: 30px;
+            background-color: green;
+            border-radius: 50%;
+        }
+    }
+    
+}

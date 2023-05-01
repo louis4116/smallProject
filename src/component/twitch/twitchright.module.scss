@@ -1,0 +1,59 @@
+.twitch-right{
+    display: flex;
+    flex-direction: column;
+    margin-left:  20px;
+    padding: 0 5px;
+    width: 100%;
+}
+
+.twitch-right-first{
+    margin-bottom:30px ;
+    h1{
+        color: white;
+        font-size: 54px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        line-height:1.2;
+    }
+    .twitch-right-navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 40px;
+        p{
+            padding-right:  10px;
+            padding-left: 15px;
+            font-size: 18px;
+            color: white;
+           
+            font-weight: 600;
+        }
+       
+    }
+    .twitch-right-p-first{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .twitch-right-p-all{
+            display: flex;
+            flex-direction: column;
+            color: rgb(191,148,255) !important;
+            flex-grow: 1;
+            
+        }
+        .twitch-right-p-all-top{
+            flex: 1;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+        }
+        .twitch-right-p-all-in-bottom{
+            height: 2px;
+            width: 100%;
+            background-color: rgb(191,148,255);
+            
+        }  
+    }
+    
+}
+

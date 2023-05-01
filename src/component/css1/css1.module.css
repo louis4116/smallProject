@@ -1,3 +1,10 @@
+.css1{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #e0e5ec;
+}
 .card{
     width: 200px;
     height: 250px;

@@ -1,0 +1,19 @@
+.pr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #e0e5ec;
+    flex-direction: column;
+}
+.progress{
+  width: 350px;
+
+}
+.progressbar{
+    width: 350px;
+    height: 35px;
+    
+    background-color: #a66cff;
+    transition: all 0.5s;
+}
